@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <>
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <div style={{ display: 'flex', flexDirection: 'column' }}>
         <div style={{ flex: 1 }}>
         </div>
         <footer
