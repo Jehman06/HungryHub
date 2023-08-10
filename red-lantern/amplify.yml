@@ -4,16 +4,17 @@ frontend:
     preBuild:
       commands:
         - cd red-lantern
-        - npm install
+        - npm ci
     build:
       commands: 
-        - cd red-lantern
-        - npm install
         - npm run build
   artifacts:
-    baseDirectory: red-lantern/build
+    baseDirectory: ./red-lantern/build
     files:
       - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
 
 backend:
   phases:
