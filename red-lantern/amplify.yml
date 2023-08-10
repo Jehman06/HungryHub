@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - cd src/red-lantern
+        - cd red-lantern
         - npm install
     build:
       commands: 
