@@ -3,12 +3,13 @@ frontend:
   phases:
     preBuild:
       commands:
+        - cd src/red-lantern
         - npm install
     build:
       commands: 
         - npm run build
   artifacts:
-    baseDirectory: /
+    baseDirectory: red-lantern/amplify/build
     files:
       - '**/*'
 
