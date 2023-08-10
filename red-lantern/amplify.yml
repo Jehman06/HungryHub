@@ -11,7 +11,7 @@ frontend:
         - npm install
         - npm run build
   artifacts:
-    baseDirectory: red-lantern/amplify/build
+    baseDirectory: red-lantern/build
     files:
       - '**/*'
 
