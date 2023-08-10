@@ -41,7 +41,6 @@ function App() {
       .catch((err) => console.log('Error signing out:', err));
   };
 
-  // TODO:
   const components = {
     Header() {
       const { tokens } = useTheme();
