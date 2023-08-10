@@ -4,7 +4,7 @@ frontend:
     preBuild:
       commands:
         - cd red-lantern
-        - npm ci
+        - npm i
     build:
       commands: 
         - npm run build
