@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // ReactDOM used to render React components in the DOM
 import './index.css'; // Importing custom styles
-import App from './App'; // Importing the main application component
+import App from './App.js'; // Importing the main application component
 import reportWebVitals from './reportWebVitals'; // Importing utility for reporting web performance metrics
 
 // Importing context providers for application state management
