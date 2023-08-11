@@ -19,6 +19,7 @@ export default function CustomNavbar({ signOut, searchQuery, setSearchQuery }) {
     setSearchQuery(e.target.value);
   };
 
+
   return (
     <div className={`d-flex flex-column flex-md-row justify-content-between align-items-center bg-light text-black p-3`}>
       <div className="d-flex align-items-center gap-2">
