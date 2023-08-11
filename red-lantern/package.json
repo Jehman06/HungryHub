@@ -1,6 +1,7 @@
 {
   "name": "red-lantern",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@aws-amplify/cli": "^12.2.3",
