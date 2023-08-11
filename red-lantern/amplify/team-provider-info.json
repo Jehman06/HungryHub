@@ -16,5 +16,23 @@
         "RedLantern": {}
       }
     }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-redlantern-dev-184240-authRole",
+      "UnauthRoleArn": "arn:aws:iam::969868071792:role/amplify-redlantern-dev-184240-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::969868071792:role/amplify-redlantern-dev-184240-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-redlantern-dev-184240-deployment",
+      "UnauthRoleName": "amplify-redlantern-dev-184240-unauthRole",
+      "StackName": "amplify-redlantern-dev-184240",
+      "StackId": "arn:aws:cloudformation:us-east-2:969868071792:stack/amplify-redlantern-dev-184240/5fe7ef40-37e8-11ee-b32e-029178911b41",
+      "AmplifyAppId": "d2gma725eb4rtw"
+    },
+    "categories": {
+      "auth": {
+        "RedLantern": {}
+      }
+    }
   }
 }
