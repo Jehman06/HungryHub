@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Amplify, Auth } from 'aws-amplify';
 import { View, Image, useTheme, Text, Authenticator } from '@aws-amplify/ui-react';
-import awsmobile from './src/aws-exports';
+import awsmobile from '/Users/jeremylehmann/Desktop/Software Development/HungryHub/red-lantern/src/aws-exports.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './assets/logo.png';
 import HomeScreen from './pages/HomeScreen';
