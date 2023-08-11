@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Amplify, Auth } from 'aws-amplify';
 import { View, Image, useTheme, Text, Authenticator } from '@aws-amplify/ui-react';
-import awsmobile from './aws-exports.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from './assets/logo.png';
 import HomeScreen from './pages/HomeScreen';
@@ -19,9 +18,11 @@ import { CartProvider } from './contexts/CartContext';
 import { TotalPriceProvider } from './contexts/TotalPriceContext';
 import OrderDelivered from './pages/OrderDelivered';
 
+const aws_exports = require('./aws-exports').default;
+
 import { DataStore } from 'aws-amplify';
 import { Restaurant } from './models';
-Amplify.configure(awsmobile);
+Amplify.configure(aws_exports);
 
 function App() {
   const [cartItemsCount, setCartItemsCount] = useState(0);
