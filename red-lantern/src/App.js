@@ -23,6 +23,7 @@ import { DataStore } from 'aws-amplify';
 import { Restaurant } from './models';
 Amplify.configure(awsmobile);
 
+
 function App() {
   const [cartItemsCount, setCartItemsCount] = useState(0);
   const [restaurants, setRestaurants] = useState([]);
