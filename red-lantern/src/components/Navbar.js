@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Nav, Button } from "react-bootstrap";
+import { Form, Nav } from "react-bootstrap";
 import logo from "../assets/logo.png";
 import { useCartContext } from "../contexts/CartContext";
 import { useNavigate } from "react-router-dom";
