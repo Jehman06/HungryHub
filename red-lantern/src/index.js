@@ -12,11 +12,11 @@ import { CartProvider } from './contexts/CartContext';
 // Importing AWS Amplify components and styles
 import '@aws-amplify/ui-react/styles.css';
 import { Amplify } from 'aws-amplify';
-import config from './aws-exports';
+import awsmobile from './aws-exports';
 import { AmplifyProvider } from '@aws-amplify/ui-react';
 
 // Configuring AWS Amplify with provided configuration
-Amplify.configure(config);
+Amplify.configure(awsmobile);
 
 // Defining a custom theme for the application
 const theme = {
