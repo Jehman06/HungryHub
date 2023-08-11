@@ -1,0 +1,29 @@
+version: 1
+backend:
+  phases:
+    build:
+      commands:
+        - npx amplifyPush --simple
+  artifacts:
+    baseDirectory: amplify/backend
+    files:
+      - '**/*'
+  cache:
+    paths: 
+      - node_modules/**/*
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - cd red-lantern
+        - npm i
+    build:
+      commands: 
+        - npm run build
+  artifacts:
+    baseDirectory: red-lantern/build
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
