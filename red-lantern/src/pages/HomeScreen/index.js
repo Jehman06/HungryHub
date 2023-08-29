@@ -21,7 +21,7 @@ function HomeScreen({ restaurants, searchQuery, cartItemsCount }) {
   return (
     <div>
       <div className="container">
-        <div className="row">
+        <div className="row" style={{ paddingTop: '10px' }}>
           {filteredRestaurants.map((restaurant) => (
             <div key={restaurant.id} className="col-md-4 mb-4" style={{ cursor: 'pointer' }}>
               <RestaurantItem restaurant={restaurant} cartItemsCount={cartItemsCount} />
