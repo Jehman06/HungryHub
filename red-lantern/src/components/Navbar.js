@@ -45,12 +45,6 @@ export default function CustomNavbar({ signOut, searchQuery, setSearchQuery }) {
           <span style={{ marginRight: "5px" }}>🛒</span>
           <span className="bi bi-cart" style={{ color: 'red' }}></span> {cartItemsCount} &nbsp;(${totalPrice.toFixed(2)})
         </button>
-        {/* Alert Button */}
-        <Nav.Link href="#action2" className="alert-btn">
-          <span role="img" aria-label="Alert">
-            🔔
-          </span>
-        </Nav.Link>
         {/* Sign Out Button */}
         <button className="btn btn-outline-danger btn-custom sign-out-btn" onClick={signOut}>
           Sign Out
