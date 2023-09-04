@@ -88,7 +88,7 @@ export default function Item({ cartItemsCount, setCartItemsCount, restaurantId }
     return (
         <div className="col-md-12 mb-4">
             <div className="card border-0 h-100">
-                <div className="card-body shadow d-flex align-items-center gap-3" key={meal.id} style={{ cursor: 'pointer' }}>
+                <div className="card-body shadow d-flex align-items-center gap-3" key={meal.id} style={{ cursor: 'pointer', marginTop: '20px', marginBottom: '30px' }}>
                     <img
                         src={meal.image}
                         alt={meal.name}
@@ -102,10 +102,10 @@ export default function Item({ cartItemsCount, setCartItemsCount, restaurantId }
                     </div>
                 </div>
 
-                <p className="h5">Qty {quantity}</p>
+                <p className="h5">Quantity: {quantity}</p>
                 <button onClick={handlePlusClick} className="btn btn-outline-danger" style={{ fontSize: '20px', width: '150px', marginTop: '10px' }}>+</button>
                 <button onClick={handleMinusClick} className="btn btn-outline-danger" style={{ fontSize: '20px', width: '150px', marginTop: "10px" }}>-</button>
-                <button onClick={() => addToCart()} className="btn btn-outline-danger" style={{ fontSize: '20px', width: '150px', marginTop: "10px" }}> ${calculatePrice().toFixed(2)} <br></br>Add to Cart</button> {/* Call the function */}
+                <button onClick={() => addToCart()} className="btn btn-outline-danger" style={{ fontSize: '20px', width: '150px', marginTop: "10px", marginBottom: '30px' }}> ${calculatePrice().toFixed(2)} <br></br>Add to Cart</button> {/* Call the function */}
 
             </div>
         </div>
