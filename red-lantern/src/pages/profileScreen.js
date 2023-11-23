@@ -13,7 +13,7 @@ const ProfileScreen = () => {
 
     return (
         <div>
-            {/* Your profile screen content */}
+            {/* Profile screen content */}
         </div>
     );
 };
