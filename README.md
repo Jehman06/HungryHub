@@ -17,5 +17,4 @@ Jasmina Topalovic, Syrinthia Swift, Jeremy Lehmann, Aphra Hiat, Jeffrey Smith
 - Notification when the food is delivered.
 
 ## Acknowledgments
-This app was inspired by real delivery applications like UberEats, Grubhub and Doordash.  
-Special Thanks to Savinvadim1312. We found out about AWS Cognito thanks to his YouTube video.
+This app was inspired by real delivery applications like UberEats, Grubhub and Doordash.
